@@ -2,7 +2,7 @@ import React from 'react';
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 const Comment = () => {
     return (
-        <div>
+        <div className="">
             <AddLocationAltIcon />
         </div>
     );
