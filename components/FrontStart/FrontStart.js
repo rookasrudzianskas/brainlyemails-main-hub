@@ -28,7 +28,7 @@ const FrontStart = () => {
                             <h2 className="text-7xl mx-2 font-bold   text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-yellow-400 cursor-pointer leading-none">build</h2>
                         </div>
                         <div>
-                            <h2 className="text-7xl font-bold  text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-yellow-400 cursor-pointer leading-none"> better websites</h2>
+                            <h2 className="text-7xl font-bold  text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-yellow-400 cursor-pointer leading-none"> better emails</h2>
                         </div>
                     </div>
                     <div className="mt-8 mr-56">
