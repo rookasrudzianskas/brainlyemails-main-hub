@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from "../../components/Header";
 
 const HomeScreen = () => {
     return (
-        <div className="">
-            <span className="text-6xl">Hello</span>
+        <div className="text-white">
+            <Header />
         </div>
     );
 };
