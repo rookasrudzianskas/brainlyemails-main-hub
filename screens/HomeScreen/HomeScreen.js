@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../../components/Header";
 import FrontStart from "../../components/FrontStart";
 import Comment from "../../components/Comment";
+import HorizontalScrollableList from "../../components/HorizontalScrollableList/HorizontalScrollableList";
 
 const HomeScreen = () => {
     return (
@@ -9,6 +10,7 @@ const HomeScreen = () => {
             <Header />
             <FrontStart />
             <Comment />
+            <HorizontalScrollableList />
         </div>
     );
 };
