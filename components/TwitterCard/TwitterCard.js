@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const TwitterCard = () => {
     return (
-        <div className="max-w-xl">
+        <div className="max-w-xl bg-gray-900">
         {/*    make twitter card */}
             <div className="">
                 <div className="flex flex-1 items-center">
@@ -18,6 +18,10 @@ const TwitterCard = () => {
                     <div  className="bg-white inline-block h-6 w-6 rounded-full ring-2 ring-white flex items-center justify-center ml-16">
                         <TwitterIcon className="text-black text-xs" />
                     </div>
+                </div>
+
+                <div className="mt-5">
+                    <span>holy 💩 Brainlyemails is good</span>
                 </div>
             </div>
         </div>
