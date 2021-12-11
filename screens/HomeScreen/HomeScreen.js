@@ -2,8 +2,8 @@ import React from 'react';
 
 const HomeScreen = () => {
     return (
-        <div>
-            Jello
+        <div className="">
+            <span className="text-6xl">Hello</span>
         </div>
     );
 };
