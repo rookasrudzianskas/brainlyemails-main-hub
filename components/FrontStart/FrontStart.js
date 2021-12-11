@@ -11,7 +11,7 @@ const FrontStart = () => {
                 {/*</div>*/}
 
                 <div>
-                    <div>
+                    <div className="flex flex-col">
                         <div className="flex flex-row">
                             <h2 className="text-7xl font-bold cursor-pointer leading-none">Focused on web</h2>
                         </div>
