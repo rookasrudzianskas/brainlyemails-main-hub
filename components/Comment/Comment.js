@@ -1,10 +1,9 @@
 import React from 'react';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
-
+import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 const Comment = () => {
     return (
         <div>
-            <AcUnitIcon />
+            <AddLocationAltIcon />
         </div>
     );
 };
