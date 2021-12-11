@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Comment = () => {
     return (
-        <div className="flex items-center justify-center mt-32">
+        <div className="flex items-center justify-center mt-32 flex-col">
             <div className="flex flex-row space-x-6 items-center">
                 <div className="flex flex-row">
                     <div className="">
@@ -22,6 +22,14 @@ const Comment = () => {
                     <span className="font-bold text-xl">Rokas Rudzianskas</span>
                     <span>@byRookas</span>
                 </div>
+            </div>
+
+            <div>
+                <span>
+                    I've been waiting for something to encourage progressive enhancement in the React space
+                    *forever* and Remix truly is so much more. Proving we don't need to sacrifice React or
+                    choose SSG for a lightning fast, accessible UI, and the DX makes it all too easy 🤤
+                </span>
             </div>
         </div>
     );
