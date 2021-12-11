@@ -7,7 +7,7 @@ const HorizontalScrollableList = () => {
         <div className="mt-16">
         {/*    create horizontal scrollable list */}
             <div
-                className="flex overflow-x-scroll pb-10 hide-scroll-bar"
+                className="flex overflow-x-scroll pb-10 scrollbar-thin scrollbar-thumb-blue"
             >
                 <div
                     className="flex flex-nowrap lg:ml-20 md:ml-20 ml-10 "
