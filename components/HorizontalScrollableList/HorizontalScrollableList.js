@@ -3,7 +3,7 @@ import TwitterCard from "../TwitterCard/TwitterCard";
 
 const HorizontalScrollableList = () => {
     return (
-        <div className="">
+        <div className="mt-16">
         {/*    create horizontal scrollable list */}
             <div
                 className="flex overflow-x-scroll pb-10 hide-scroll-bar"
