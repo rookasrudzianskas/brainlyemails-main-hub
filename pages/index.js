@@ -3,7 +3,7 @@ import HomeScreen from "../screens/HomeScreen";
 
 export default function Home() {
   return (
-    <div className="bg-black h-screen">
+    <div className="bg-black h-screen ">
       <Head>
         <title>👋 Brainlyemails</title>
         <link rel="icon" href="../assets/HomeScreen/images/homeScreen_header.png" />
