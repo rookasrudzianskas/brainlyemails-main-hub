@@ -1,4 +1,5 @@
 import React from 'react';
+import TwitterCard from "../TwitterCard/TwitterCard";
 
 const HorizontalScrollableList = () => {
     return (
@@ -10,46 +11,11 @@ const HorizontalScrollableList = () => {
                 <div
                     className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 "
                 >
+
                     <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
+                        <TwitterCard />
                     </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
-                    <div className="inline-block px-3">
-                        <div
-                            className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                        />
-                    </div>
+
                 </div>
             </div>
         </div>
