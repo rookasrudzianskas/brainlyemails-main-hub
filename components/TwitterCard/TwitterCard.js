@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const TwitterCard = () => {
     return (
-        <div className="max-w-xl bg-gray-900 w-[450px] h-64 rounded-lg hover:opacity-90 cursor-pointer transition duration-150 ease-in-out">
+        <div className="max-w-xl bg-gray-900 w-[450px] h-64 rounded-lg mx-3 hover:opacity-90 cursor-pointer transition duration-150 ease-in-out ">
         {/*    make twitter card */}
             <div className="">
                 <div className="flex flex-1 items-center pr-8 pl-8 pt-8">

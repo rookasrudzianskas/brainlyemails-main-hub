@@ -1,5 +1,6 @@
 import React from 'react';
 import TwitterCard from "../TwitterCard/TwitterCard";
+import {USERS} from "../../data/TwitterCards/people";
 
 const HorizontalScrollableList = () => {
     return (
@@ -12,8 +13,15 @@ const HorizontalScrollableList = () => {
                     className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 "
                 >
 
-                    <div className="inline-block px-3">
-                        <TwitterCard />
+                    <div className="inline-block px-3 flex flex-row">
+                        {USERS.map((user, index) => {
+                            return (
+                                <TwitterCard
+                                    key={index}
+                                    user={user}
+                                />
+                            )
+                        })}
                     </div>
 
                 </div>
