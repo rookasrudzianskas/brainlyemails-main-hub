@@ -8,6 +8,7 @@ const HomeScreen = () => {
         <div className="text-white">
             <Header />
             <FrontStart />
+            <Comment />
         </div>
     );
 };
