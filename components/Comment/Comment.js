@@ -24,8 +24,8 @@ const Comment = () => {
                 </div>
             </div>
 
-            <div>
-                <span>
+            <div className="max-w-xl flex items-center text-center mt-10">
+                <span className="text-xl text-gray-400">
                     I've been waiting for something to encourage progressive enhancement in the React space
                     *forever* and Remix truly is so much more. Proving we don't need to sacrifice React or
                     choose SSG for a lightning fast, accessible UI, and the DX makes it all too easy 🤤
