@@ -5,6 +5,7 @@ import Comment from "../../components/HomeScreen_Components/Comment";
 import HorizontalScrollableList from "../../components/HomeScreen_Components/HorizontalScrollableList/HorizontalScrollableList";
 import LoadingExplanationText from "../../components/HomeScreen_Components/LoadingExplanationText";
 import BrainlyemailsCheatCode from "../../components/HomeScreen_Components/BrainlyemailsCheatCode";
+import OverallNestedRoute from "../../components/HomeScreen_Components/NestedRoutes/OverallNestedRoute";
 
 const HomeScreen = () => {
     return (
@@ -15,6 +16,7 @@ const HomeScreen = () => {
             <HorizontalScrollableList />
             <LoadingExplanationText />
             <BrainlyemailsCheatCode />
+            <OverallNestedRoute />
         </div>
     );
 };
