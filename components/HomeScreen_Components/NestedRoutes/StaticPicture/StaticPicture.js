@@ -14,7 +14,12 @@ const StaticPicture = () => {
     } = useScrollData();
 
     useEffect(() =>  {
-        // console.log(time)
+        console.log(`Scrolling ${scrolling} at ${time}`);
+        console.log(speed);
+        console.log(direction);
+        console.log(position);
+        console.log(relativeDistance);
+        console.log(totalDistance);
         transitionNavBar();
     }, [position]);
     const [show, handleShow] = useState(false);
