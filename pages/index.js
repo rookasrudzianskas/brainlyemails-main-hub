@@ -7,15 +7,24 @@ import useScrollPosition from '@react-hook/window-scroll'
 
 
 export default function Home() {
-        const scrollPosition = useScrollPosition();
-        console.log(scrollPosition);
+        const [scrollY, setScrollY] = useState(0);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            // checkForScroll();
-        }, 1000);
-        return () => clearInterval(interval);
-    }, []);
+        useEffect(() => {
+            const handleScroll = () => {
+                setScrollY(window.scrollY);
+                console.log(window.scrollY);
+            };
+
+            handleScroll();
+
+            window.addEventListener("scroll", handleScroll);
+
+            return () => {
+                window.removeEventListener("scroll", handleScroll);
+            };
+
+            // eslint-disable-next-line react-hooks/exhaustive-deps
+        }, []);
   return (
     <div className="bg-black h-screen overflow-y-scroll scrollbar-hide">
       <Head>
@@ -30,6 +39,8 @@ export default function Home() {
 
         </main>
 
+
     </div>
   )
 }
+

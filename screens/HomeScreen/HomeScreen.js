@@ -73,3 +73,9 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+
+export async function getServerSideProps() {
+    console.log("rendering now");
+    return { props: {} };
+}
