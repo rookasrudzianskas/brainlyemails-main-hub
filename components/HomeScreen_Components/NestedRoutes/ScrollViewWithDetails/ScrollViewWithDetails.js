@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Code4Times from "../../../CodeSnippets/Code4Times";
 import {CODE} from "../../../../data/CodeCards/code";
 
 const ScrollViewWithDetails = () => {
+
+    useEffect(() =>  {
+        console.log(window)
+    }, []);
+
+
     return (
         <div className="flex justify-center flex-col items-center max-h-xl overflow-y-scroll">
             <div className=" max-w-4xl p-10 pl-16">
@@ -30,7 +36,7 @@ const ScrollViewWithDetails = () => {
             </div>
 
             <div className="mt-56 flex flex-col items-center">
-                <p className="text-7xl animate-bounce">👇</p>
+                <p className="text-7xl animate-bounce cursor-pointer">👇</p>
                 <div className="flex flew-row mt-2">
                     {CODE.map((code, index) => <Code4Times key={index} code={code}/>)}
                 </div>
