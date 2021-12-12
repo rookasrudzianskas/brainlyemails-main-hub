@@ -9,19 +9,7 @@ import OverallNestedRoute from "../../components/HomeScreen_Components/NestedRou
 import {useScrollData} from "scroll-data-hook";
 
 const HomeScreen = () => {
-    const {
-        scrolling,
-        time,
-        speed,
-        direction,
-        position,
-        relativeDistance,
-        totalDistance
-    } = useScrollData();
 
-    useEffect(() =>  {
-        console.log(totalDistance)
-    }, [position]);
 
 
     return (

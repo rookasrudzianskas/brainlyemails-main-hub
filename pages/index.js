@@ -16,7 +16,9 @@ export default function Home() {
         <main>
             <div className="text-white">
                 <HomeScreen />
+
             </div>
+
         </main>
 
     </div>
