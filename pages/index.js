@@ -1,23 +1,10 @@
 import Head from 'next/head'
 import HomeScreen from "../screens/HomeScreen";
-import {useEffect, useState} from "react";
+import {useEffect, useLayoutEffect, useReducer, useRef, useState} from "react";
+import { useScrollData } from "scroll-data-hook";
+
 
 export default function Home() {
-
-
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        console.log(position)
-        setScrollPosition(position);
-    };
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll, { passive: true });
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
   return (
     <div className="bg-black h-screen overflow-y-scroll scrollbar-hide">
@@ -27,8 +14,131 @@ export default function Home() {
       </Head>
 
         <main>
-            <div>
-                <HomeScreen />
+            <div className="text-white">
+                {/*<HomeScreen />*/}
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
+                <h1>Rokas</h1>
             </div>
         </main>
 

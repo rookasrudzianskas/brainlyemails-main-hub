@@ -2276,6 +2276,11 @@ scheduler@^0.20.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+scroll-data-hook@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/scroll-data-hook/-/scroll-data-hook-1.0.4.tgz#8195ba50297f99c624d346a012b3d55fffff49f7"
+  integrity sha512-eeLGAjQAHAFBmUXl0/j+fcrBlG6ToUNTKDusuK4h62Z4enMuad/0oszg28fDAPArzt9Ry4uzK6x2ah+cOnD4EA==
+
 semver@^6.0.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
