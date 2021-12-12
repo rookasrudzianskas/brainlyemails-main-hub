@@ -6,9 +6,22 @@ import HorizontalScrollableList from "../../components/HomeScreen_Components/Hor
 import LoadingExplanationText from "../../components/HomeScreen_Components/LoadingExplanationText";
 import BrainlyemailsCheatCode from "../../components/HomeScreen_Components/BrainlyemailsCheatCode";
 import OverallNestedRoute from "../../components/HomeScreen_Components/NestedRoutes/OverallNestedRoute";
+import {useScrollData} from "scroll-data-hook";
 
 const HomeScreen = () => {
+    const {
+        scrolling,
+        time,
+        speed,
+        direction,
+        position,
+        relativeDistance,
+        totalDistance
+    } = useScrollData();
 
+    useEffect(() =>  {
+        console.log(totalDistance)
+    }, [position]);
 
 
     return (
