@@ -1,4 +1,5 @@
 import React from 'react';
+import Code4Times from "../../../CodeSnippets/Code4Times";
 
 const ScrollViewWithDetails = () => {
     return (
@@ -29,6 +30,7 @@ const ScrollViewWithDetails = () => {
 
             <div className="mt-56">
                 <p className="text-7xl animate-bounce">👇</p>
+                <Code4Times />
             </div>
 
             <h1>Rokas</h1>
