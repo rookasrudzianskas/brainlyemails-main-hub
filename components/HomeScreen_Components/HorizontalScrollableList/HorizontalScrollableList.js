@@ -1,6 +1,6 @@
 import React from 'react';
 import TwitterCard from "../TwitterCard/TwitterCard";
-import {USERS} from "../../data/TwitterCards/people";
+import {USERS} from "../../../data/TwitterCards/people";
 
 const HorizontalScrollableList = () => {
     return (
