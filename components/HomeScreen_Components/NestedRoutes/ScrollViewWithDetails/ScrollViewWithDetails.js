@@ -29,46 +29,61 @@ const ScrollViewWithDetails = () => {
                 </span>
             </div>
 
-            <div className="mt-56">
+            <div className="mt-56 flex flex-col items-center">
                 <p className="text-7xl animate-bounce">👇</p>
-                {CODE.map((code, index) => <Code4Times key={index} code={code}/>)}
+                <div className="flex flew-row mt-2">
+                    {CODE.map((code, index) => <Code4Times key={index} code={code}/>)}
+                </div>
             </div>
 
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
-            <h1>Rokas</h1>
+           <div className="mb-56">
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+               <h1>Rokas</h1>
+           </div>
+
+
         </div>
     );
 };
