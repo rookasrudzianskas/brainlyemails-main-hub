@@ -20,20 +20,10 @@ const StaticPicture = () => {
     //     return () => window.removeEventListener("scroll", transitionNavBar);
     // }, []);
 
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollPosition(position);
-        console.log(position)
-    };
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    // show the scroll y position
+    // console.log('This is window 🔥', window.scrollY);
 
     return (
         <div className="flex justify-center overflow-y-hide">
