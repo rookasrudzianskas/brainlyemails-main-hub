@@ -32,7 +32,7 @@ const FrontStart = () => {
                         </div>
                     </div>
                     <div className="mt-8 mr-56">
-                        <h3 className="text-white text-xl mb-8 text-gray-400 ">Brainlyemails comes packed with templates for any scenario and functionality to let you hit the ground running — in minutes, to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.</h3>
+                        <h3 className="text-white text-xl mb-8 text-gray-300 ">Brainlyemails comes packed with templates for any scenario and functionality to let you hit the ground running — in minutes, to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.</h3>
                     </div>
 
                     <div className="flex flex-row">
