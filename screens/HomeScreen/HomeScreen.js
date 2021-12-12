@@ -4,6 +4,7 @@ import FrontStart from "../../components/HomeScreen_Components/FrontStart";
 import Comment from "../../components/HomeScreen_Components/Comment";
 import HorizontalScrollableList from "../../components/HomeScreen_Components/HorizontalScrollableList/HorizontalScrollableList";
 import LoadingExplanationText from "../../components/HomeScreen_Components/LoadingExplanationText";
+import BrainlyemailsCheatCode from "../../components/HomeScreen_Components/BrainlyemailsCheatCode";
 
 const HomeScreen = () => {
     return (
@@ -13,6 +14,7 @@ const HomeScreen = () => {
             <Comment />
             <HorizontalScrollableList />
             <LoadingExplanationText />
+            <BrainlyemailsCheatCode />
         </div>
     );
 };
