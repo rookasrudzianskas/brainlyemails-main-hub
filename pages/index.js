@@ -7,25 +7,8 @@ import useScrollPosition from '@react-hook/window-scroll'
 
 
 export default function Home() {
-        const [scrollY, setScrollY] = useState(0);
 
-        useEffect(() => {
-            const handleScroll = () => {
-                setScrollY(window.scrollY);
-                console.log(window.scrollY);
-            };
-
-            handleScroll();
-
-            window.addEventListener("scroll", handleScroll);
-
-            return () => {
-                window.removeEventListener("scroll", handleScroll);
-            };
-
-            // eslint-disable-next-line react-hooks/exhaustive-deps
-        }, []);
-  return (
+    return (
     <div className="bg-black h-screen overflow-y-scroll scrollbar-hide">
       <Head>
         <title>👋 Brainlyemails</title>
