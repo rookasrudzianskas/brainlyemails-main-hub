@@ -18,16 +18,16 @@ const LoadingExplanationText = () => {
                                             Brainlyemails is a seamless server and browser runtime
                                     that provides snappy page loads and instant transitions by
                                     leveraging distributed systems and native browser features instead
-                                    of clunky static builds. Built on the Web Fetch API (instead of Node) it can run anywhere.
+                                    of clunky static builds. Built on the Web Fetch API (instead of Node) <span className="font-bold text-white">it can run anywhere.</span>
                                     It already runs natively on Cloudflare Workers, and of course supports serverless and traditional
                                     Node.js environments, so you can come as you are.
                                   </div>
 
                                     <div className="mt-5">
                                         <span className="mt-5">
-                                            Email speed is only one aspect of our true goal though. We're after better user experiences.
+                                            Email speed is only one aspect of our true goal though. We're after <span  className="font-bold text-white">better user experiences. </span>
                                         As you’ve pushed the boundaries of the web, your tools haven’t caught up to your appetite.
-                                        Brainlyemails is ready to serve you from the initial request to the fanciest UX your designers can think up.
+                                        <span  className="font-bold text-white"> Brainlyemails is ready </span> to serve you from the initial request to the fanciest UX your designers can think up.
                                         Check it out 👀
                                         </span>
                                     </div>
