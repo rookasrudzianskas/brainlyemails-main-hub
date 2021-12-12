@@ -21,6 +21,53 @@ const HomeScreen = () => {
             <LoadingExplanationText />
             <BrainlyemailsCheatCode />
             <OverallNestedRoute />
+            <div className="text-white">
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+                <p>Rokas</p>
+            </div>
         </div>
     );
 };

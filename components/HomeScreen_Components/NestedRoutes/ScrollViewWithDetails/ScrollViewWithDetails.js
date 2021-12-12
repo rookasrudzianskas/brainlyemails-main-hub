@@ -51,36 +51,7 @@ const ScrollViewWithDetails = () => {
                <h1>Rokas</h1>
                <h1>Rokas</h1>
                <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
-               <h1>Rokas</h1>
+
            </div>
 
 
