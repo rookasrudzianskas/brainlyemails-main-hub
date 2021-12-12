@@ -1,5 +1,6 @@
 import React from 'react';
 import Code4Times from "../../../CodeSnippets/Code4Times";
+import {CODE} from "../../../../data/CodeCards/code";
 
 const ScrollViewWithDetails = () => {
     return (
@@ -30,7 +31,7 @@ const ScrollViewWithDetails = () => {
 
             <div className="mt-56">
                 <p className="text-7xl animate-bounce">👇</p>
-                <Code4Times />
+                {CODE.map((code, index) => <Code4Times key={index} code={code}/>)}
             </div>
 
             <h1>Rokas</h1>
